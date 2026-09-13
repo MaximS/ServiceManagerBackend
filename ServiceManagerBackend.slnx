@@ -2,4 +2,5 @@
   <Folder Name="/example/">
     <Project Path="/home/maxim/projects/d-bus/ServiceManager/backend/example/SystemdServiceController/SystemdServiceController.csproj" />
   </Folder>
+  <Project Path="ServiceManagerBackend/ServiceManagerBackend.csproj" />
 </Solution>

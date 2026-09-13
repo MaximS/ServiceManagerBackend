@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Emit the D-Bus source generator output for inspection. MUST stay under
+         $(BaseIntermediateOutputPath) — a path inside the project dir gets
+         compiled twice and produces a CS0101 storm. -->
+    <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+    <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)generated</CompilerGeneratedFilesOutputPath>
+  </PropertyGroup>
+
+  <!-- Typed proxies for the systemd D-Bus API, generated from introspection XML. -->
+  <ItemGroup>
+    <AdditionalFiles Include="dbus-xml/org.freedesktop.systemd1.Manager.xml" Namespace="ServiceManagerBackend.DBus" DBusGeneratorMode="Proxy" Visibility="public" />
+    <AdditionalFiles Include="dbus-xml/org.freedesktop.systemd1.Unit.xml" Namespace="ServiceManagerBackend.DBus" DBusGeneratorMode="Proxy" Visibility="public" />
+    <AdditionalFiles Include="dbus-xml/org.freedesktop.systemd1.Job.xml" Namespace="ServiceManagerBackend.DBus" DBusGeneratorMode="Proxy" Visibility="public" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="10.2.3" />
+    <PackageReference Include="Tmds.DBus.Generator" Version="0.95.1" />
+    <PackageReference Include="Tmds.DBus.Protocol" Version="0.95.1" />
+  </ItemGroup>
+
+</Project>

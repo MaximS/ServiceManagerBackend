@@ -1,0 +1,52 @@
+{
+  "/home/maxim/projects/d-bus/ServiceManager/backend/ServiceManagerBackend.slnx": {
+    "mtime": 1789304102.0686004,
+    "ast_hash": "da2a568bf953f3b24c6b8173a643eefc",
+    "semantic_hash": "da2a568bf953f3b24c6b8173a643eefc"
+  },
+  "/home/maxim/projects/d-bus/ServiceManager/backend/example/SystemdServiceController/Cli.cs": {
+    "mtime": 1789301629.8896856,
+    "ast_hash": "2eeb9ffcdaa742a5eb94a1534a094d34",
+    "semantic_hash": "2eeb9ffcdaa742a5eb94a1534a094d34"
+  },
+  "/home/maxim/projects/d-bus/ServiceManager/backend/example/SystemdServiceController/Program.cs": {
+    "mtime": 1789301567.9843965,
+    "ast_hash": "aa64594bccb17bfb9b06d12ab014ac1e",
+    "semantic_hash": "aa64594bccb17bfb9b06d12ab014ac1e"
+  },
+  "/home/maxim/projects/d-bus/ServiceManager/backend/example/SystemdServiceController/SystemdClient.cs": {
+    "mtime": 1789301552.6066487,
+    "ast_hash": "5186a15c76c168d25180e2f56639f478",
+    "semantic_hash": "5186a15c76c168d25180e2f56639f478"
+  },
+  "/home/maxim/projects/d-bus/ServiceManager/backend/example/SystemdServiceController/SystemdServiceController.csproj": {
+    "mtime": 1789288222.4581366,
+    "ast_hash": "49c55d0fdee7b77d184f1f6fbd4481d5",
+    "semantic_hash": "49c55d0fdee7b77d184f1f6fbd4481d5"
+  },
+  "/home/maxim/projects/d-bus/ServiceManager/backend/SKILL.md": {
+    "mtime": 1789301816.0786605,
+    "ast_hash": "374b99fd3fafbb28181ed320886be606",
+    "semantic_hash": "374b99fd3fafbb28181ed320886be606"
+  },
+  "/home/maxim/projects/d-bus/ServiceManager/backend/docs/01-dbus-fundamentals.md": {
+    "mtime": 1789301726.2316377,
+    "ast_hash": "3f4b70a1f35e6d376c7f9638b3c9b493",
+    "semantic_hash": "3f4b70a1f35e6d376c7f9638b3c9b493"
+  },
+  "/home/maxim/projects/d-bus/ServiceManager/backend/docs/02-systemd-dbus-api.md": {
+    "mtime": 1789301757.6912956,
+    "ast_hash": "4a65ca5569dfc92a51452f87a414becd",
+    "semantic_hash": "4a65ca5569dfc92a51452f87a414becd"
+  },
+  "/home/maxim/projects/d-bus/ServiceManager/backend/docs/03-tmddbus-library.md": {
+    "mtime": 1789301795.0068896,
+    "ast_hash": "a67a3909578346b787aea6f2f6662da3",
+    "semantic_hash": "a67a3909578346b787aea6f2f6662da3"
+  },
+  "/home/maxim/projects/d-bus/ServiceManager/backend/docs/README.md": {
+    "mtime": 1789301679.8931417,
+    "ast_hash": "81157b2bf233cb1ac98ba485dc8c427b",
+    "semantic_hash": "81157b2bf233cb1ac98ba485dc8c427b"
+  }
+}
