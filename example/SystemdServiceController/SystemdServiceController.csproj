@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>SystemdServiceController</RootNamespace>
+    <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+    <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)generated</CompilerGeneratedFilesOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Tmds.DBus.Protocol" Version="0.95.1" />
+    <PackageReference Include="Tmds.DBus.Generator" Version="0.95.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="dbus-xml/org.freedesktop.systemd1.Manager.xml" Namespace="Systemd.DBus" DBusGeneratorMode="Proxy" Visibility="public" />
+    <AdditionalFiles Include="dbus-xml/org.freedesktop.systemd1.Unit.xml" Namespace="Systemd.DBus" DBusGeneratorMode="Proxy" Visibility="public" />
+    <AdditionalFiles Include="dbus-xml/org.freedesktop.systemd1.Job.xml" Namespace="Systemd.DBus" DBusGeneratorMode="Proxy" Visibility="public" />
+  </ItemGroup>
+
+</Project>
