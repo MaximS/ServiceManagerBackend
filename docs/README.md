@@ -19,7 +19,7 @@
 *** No manual code or docs modifications ***
 
 -------------------------------------------------------
-The following is original SKILL.md created by the model
+The following is original SKILL.md created by the model together with `example` CLI project
 -------------------------------------------------------
 
 # Controlling systemd over D-Bus from .NET
