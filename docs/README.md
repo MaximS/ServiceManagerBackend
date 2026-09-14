@@ -1,5 +1,5 @@
 # Experiment on Agentic Coding
-- Model - Qwen3.8:Q8_0
+- Model - Qwen3.8-27B:Q8_0
 - Engine - llama.cpp
 - Harness - OpenCode
 - Microsoft learning MCP
