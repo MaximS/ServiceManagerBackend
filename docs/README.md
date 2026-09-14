@@ -2,17 +2,18 @@
 - Model - Qwen3.8:Q8_0
 - Engine - llama.cpp
 - Harness - OpenCode
+- Microsoft learning MCP
 - Task - Create dotnet webapi to control systemd services via D-Bus
 
 ## Process
-1. Phase 1 - Research on D-Bus and TMDS library. Result - SKILL.md and three additional artifacts.
-2. Phase 2 - Create a dotnet webapi backend
+1. Phase 1 - Research on D-Bus and TMDS library. Result - SKILL.md and docs/README.txt with three additional artifacts. The model was asked to create human-readable README and agent-readable SKILL.
+2. Phase 2 - Create a dotnet webapi backend using SKILL.md generated during the phase 1.
 
 ## Backend features
 - Works with user space services only
 - Two variants for starting and stopping services
- - Waiting for completion - until the job is done
- - Streaming intermediate statuses via SSE
+  - Waiting for completion - until the job is done
+  - Streaming intermediate statuses via SSE
 - Logging is explicitly disabled to keep logic clearly visible
 
 *** No manual code or docs modifications ***
