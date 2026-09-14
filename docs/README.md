@@ -1,5 +1,5 @@
 # Experiment on Agentic Coding
-- LLM - Qwen3.8:Q8_0
+- Model - Qwen3.8:Q8_0
 - Engine - llama.cpp
 - Harness - OpenCode
 - Task - Create dotnet webapi to control systemd services via D-Bus
@@ -11,11 +11,11 @@
 ## Backend features
 - Works with user space services only
 - Two variants for starting and stopping services
--- Waiting for completion - ubtil the job is done
--- Streamig intermediate statuses via SSE
+ - Waiting for completion - until the job is done
+ - Streaming intermediate statuses via SSE
 - Logging is explicitly disabled to keep logic clearly visible
 
-*** No manual code and docs modifications ***
+*** No manual code or docs modifications ***
 
 -------------------------------------------------------
 The following is original SKILL.md created by the model
